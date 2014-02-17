@@ -1,18 +1,18 @@
 @import "compass";
 
-@import "parts/fonts";
+@import "split/fonts";
 
 @media screen {
 
 @import "settings";
-@import "parts/normalize";
-@import "parts/grid";
-@import "parts/general";
-@import "parts/main";
-@import "parts/forms";
-@import "parts/viewlets";
-@import "parts/portlets";
-@import "parts/plone";
+@import "split/normalize";
+@import "split/grid";
+@import "split/general";
+@import "split/main";
+@import "split/forms";
+@import "split/viewlets";
+@import "split/portlets";
+@import "split/plone";
 
 }
 
@@ -29,12 +29,12 @@
 /*----- All Mobile Sizes (devices and browser) -----*/
 @media only screen and (max-width: 767px) {
 
-@import "parts/mobile";
+@import "split/mobile";
 
 }
 
 @media print {
 
-@import "parts/print";
+@import "split/print";
 
 }
