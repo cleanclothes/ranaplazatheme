@@ -23,7 +23,7 @@
   z-index: 3;
   }
 #theme-globalnav > li:hover > .hasChildrens {
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAACCAYAAADirOGHAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAEhJREFUeNpi4d+x+j/DKBgFo2AU4AGMQPwfjc+AJkZLwMzMtIOZlSWE5fvHr6OxMQpGwSgYlOA/sERkZmVewiPIkwOkvwEEGABZeQy6KWtVDwAAAABJRU5ErkJggg==) no-repeat 100% 100%;
+  
 }
 #theme-globalnav a:visited {
   color: $mainColor;
@@ -36,7 +36,7 @@
 #theme-globalnav ul {
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.85);
-  border-bottom: 1px solid #26afa9;
+  border-bottom: 1px solid $mainColor;
   border-radius: 0 10px 0 0;
   box-shadow: -3px 0 10px 0 rgba(255, 255, 255, 0.28);
   display: none;
@@ -84,6 +84,7 @@
 #portal-searchbox {
   clear: right;
   float: right;
+  margin-top: 3em;
   }
 .LSBox {
   background-color: rgb(255,255,255);
